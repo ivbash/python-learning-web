@@ -1,0 +1,51 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+{% load static %}
+
+<h2>Полезные ресурсы</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Django</h2>
+        <p>Обучающие материалы по фреймворку Django.</p>
+        <p><a class="btn btn-default" href="https://djangobook.com/django-tutorials/">Перейти &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Python</h2>
+        <p>Обучающие материалы Python.</p>
+        <p><a class="btn btn-default" href="https://docs.python.org/3/tutorial/index.html">Перейти &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>JavaScript</h2>
+        <p>Учебник JavaScript.</p>
+        <p><a class="btn btn-default" href="https://learn.javascript.ru/">Перейти &raquo;</a></p>
+    </div>
+</div>
+
+<br />
+
+<h3>Связанные по тематике сайты</h3>
+
+<br />
+
+<ul class="row list-unstyled list">
+    <li class="col-md-4">
+        <a href="https://proglib.io/">
+            <img src="{% static 'app/content/proglib.svg'%} " alt="proglib" />
+        </a>
+    </li>
+    <li class="col-md-4">
+        <a href="https://tproger.ru/">
+            <img src="{% static 'app/content/tp.png'%} " alt="Tproger" />
+        </a>
+    </li>
+    <li class="col-md-4">
+        <a href="https://gamedev.ru/">
+            <img src="{% static 'app/content/gamedev_logo.svg'%} " alt="gamedev" />
+        </a>
+    </li>
+</ul>
+
+{% endblock %}

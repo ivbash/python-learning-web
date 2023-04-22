@@ -1,0 +1,2 @@
+E:\Development\vs\projects\WebProject\WebProject\obj\Any CPU\Debug\WebProject.pyproj.SuggestedBindingRedirects.cache
+E:\Development\vs\projects\WebProject\WebProject\obj\Any CPU\Debug\WebProject.pyproj.CoreCompileInputs.cache
